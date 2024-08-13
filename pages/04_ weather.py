@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # OpenWeatherMap API 키 설정
-API_KEY = 'YOUR_API_KEY'
+API_KEY = 'eeb25092d9b34b41669d84fbf47c2bcf'
 
 # 도시 이름 입력 받기
 st.title("날씨 정보 앱")
