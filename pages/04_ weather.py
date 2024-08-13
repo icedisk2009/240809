@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 
-# API KEY 정보로드
-load_dotenv()
+# OpenWeatherMap API 키 설정
+API_KEY = 'YOUR_API_KEY'
 
 # 도시 이름 입력 받기
 st.title("날씨 정보 앱")
