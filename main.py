@@ -11,7 +11,7 @@ import settings
 #load_dotenv()
 
 # python -m streamlit run main.py
-st.title("📝혜영쌤의 GPT🍈🍉🍊")
+st.title("📝 혜영쌤의 GPT로 알아볼까? 🍈🍉🍊")
 
 config = settings.load_config()
 if "api_key" in config:
